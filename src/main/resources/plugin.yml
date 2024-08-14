@@ -1,0 +1,12 @@
+name: nation_announcements
+version: '${project.version}'
+main: org.oreo.nation_announcements.Nation_announcements
+api-version: '1.20'
+
+
+commands:
+
+  nation-announcements: #Command to announce
+    description: Announce something to your nation members
+    usage: /<command>
+    aliases: [na]
