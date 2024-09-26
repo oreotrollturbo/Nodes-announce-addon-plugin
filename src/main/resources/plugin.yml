@@ -10,3 +10,8 @@ commands:
     description: Announce something to your nation members
     usage: /<command>
     aliases: [na]
+
+    income:
+      description: A simple command tht sums up your income
+      usage: /<command>
+      aliases: [ income_summary ]

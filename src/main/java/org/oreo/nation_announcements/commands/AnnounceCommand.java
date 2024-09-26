@@ -83,7 +83,7 @@ public class AnnounceCommand implements CommandExecutor, TabCompleter {
                 for (String playerName : nationPlayersMap.getOrDefault(nationName, Collections.emptyList())) {
                     Player player = sender.getServer().getPlayer(playerName);
                     if (player != null && player.isOnline()) {
-                        player.playSound(player.getLocation(), Sound.ENTITY_ENDER_DRAGON_GROWL, 0.8f, 1f);
+                        player.playSound(player.getLocation(), Sound.ENTITY_ENDERMAN_TELEPORT, 2.0f, 0.5f);
                         sendActionBar(player, message);
                     }
                 }
